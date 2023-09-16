@@ -1,4 +1,4 @@
-POST http://localhost:3333/videos
+POST https://nodejs-mykh.onrender.com/videos
 Content-type: application/json
 
 {
@@ -9,11 +9,11 @@ Content-type: application/json
 
 ###
 
-GET http://localhost:3333/videos?search=
+GET https://nodejs-mykh.onrender.com/videos?search=
 
 ###
 
-PUT http://localhost:3333/videos/24ec16a5-cb82-4185-ad3c-3c3ed8e6943e
+PUT https://nodejs-mykh.onrender.com/videos/24ec16a5-cb82-4185-ad3c-3c3ed8e6943e
 Content-type: application/json
 
 {
@@ -24,7 +24,7 @@ Content-type: application/json
 
 ###
 
-DELETE http://localhost:3333/videos/6983be42-e56f-4406-b6a9-a6bb2f584baf
+DELETE https://nodejs-mykh.onrender.com/videos/6983be42-e56f-4406-b6a9-a6bb2f584baf
 
 
  
